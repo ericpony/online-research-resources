@@ -33,6 +33,14 @@ Anirban Majumdar, MOVEP 2020
 - [Slides](http://projects-verimag.imag.fr/movep2020/wp-content/uploads/sites/8/2020/06/movep_3.pdf)
 - [Lecture recording](https://veri-bbb.imag.fr/playback/presentation/2.0/playback.html?meetingId=800131fcf308a150ee64230dddcc6fd29c5317c4-1592823463592)
 
+### A Note on Game Theory and Verification
+
+Patricia Bouyer, ATVA 2019
+
+We present some basics of game theory, focusing on matrix games. We then present the model of multiplayer *stochastic* concurrent games (with an underlying graph), which extends standard finite-state models used in verification in a multiplayer and concurrent setting; we explain why the basic theory cannot apply to that general model. We then focus on a very simple setting, and explain and give intuitions for the computation of *Nash equilibria*. We then give a number of undecidability results, giving limits to the approach. Finally we describe the suspect game construction, which (we believe) captures and explains well Nash equilibria and allow to compute them in many cases.
+
+- [Paper](http://www.lsv.fr/~bouyer/equalis/files/bouyer-atva19.pdf)
+
 # First-order logic
 
 ### Ultimately periodic sets, semi-linear sets, and Presburger arithmetic
