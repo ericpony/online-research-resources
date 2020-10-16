@@ -30,6 +30,7 @@ Pierre Vandenhove, MOVEP 2020
 Anirban Majumdar, MOVEP 2020
 
 - [Abstract](http://projects-verimag.imag.fr/movep2020/wp-content/uploads/sites/8/2020/06/MOVEP2020_paper_13.pdf)
+- [Paper](https://hal.inria.fr/hal-02351236/document)
 - [Slides](http://projects-verimag.imag.fr/movep2020/wp-content/uploads/sites/8/2020/06/movep_3.pdf)
 - [Lecture recording](https://veri-bbb.imag.fr/playback/presentation/2.0/playback.html?meetingId=800131fcf308a150ee64230dddcc6fd29c5317c4-1592823463592)
 
