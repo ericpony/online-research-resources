@@ -1,5 +1,13 @@
 # Game theory / concurrent games
 
+### Synthesizing safe coalition strategies
+
+Nathalie Bertrand, Patricia Bouyer, Anirban Majumdar, 2020
+
+Concurrent games with a fixed number of agents have been thoroughly studied, with various solution concepts and objectives for the agents. In this paper, we consider concurrent games with an arbitrary number of agents, and study the problem of synthesizing a coalition strategy to achieve a global safety objective. The problem is non-trivial since the agents do not know a priori how many they are when they start the game. We prove that the existence of a safe arbitrary-large coalition strategy for safety objectives is a PSPACE-hard problem that can be decided in exponential space. 
+
+https://arxiv.org/abs/2008.03770
+
 ### Two-player zero sum games played on graphs
 
 Jean-Francois Raskin, MOVEP 2020
@@ -9,32 +17,24 @@ The class of two-player zero sum games played on graphs is a canonical model to 
 - [Slides](http://projects-verimag.imag.fr/movep2020/invited-speakers/)
 - [Lecture recording](https://veri-bbb.imag.fr/playback/presentation/2.0/playback.html?meetingId=800131fcf308a150ee64230dddcc6fd29c5317c4-1592805837947)
 
-
-### Algorithmic game theory: from multi-agent optimization to online learning
-
-Mini course September 9-10, 2020.
-
-- [Slides](https://smai-mode2020.inria.fr/en/mini-cours/)
-- [Lecture recordings](https://www.youtube.com/playlist?list=PLQERYuTxSzGYfm_vvmjqJ3ZVev1J-XYdH)
-
-### Games where you can play optimally with arena-independent finite memory
-
-Pierre Vandenhove, MOVEP 2020
-
-- [Abstract](http://projects-verimag.imag.fr/movep2020/wp-content/uploads/sites/8/2020/06/MOVEP2020_paper_11.pdf)
-- [Slides](http://projects-verimag.imag.fr/movep2020/wp-content/uploads/sites/8/2020/06/vandenhove_movep20.pdf)
-- [Lecture recording](https://veri-bbb.imag.fr/playback/presentation/2.0/playback.html?meetingId=800131fcf308a150ee64230dddcc6fd29c5317c4-1592823463592)
-
 ### Concurrent parameterized games
 
-Anirban Majumdar, MOVEP 2020
+Nathalie Bertrand, Patricia Bouyer, Anirban Majumdar, FSTTCS 2019
 
 - [Abstract](http://projects-verimag.imag.fr/movep2020/wp-content/uploads/sites/8/2020/06/MOVEP2020_paper_13.pdf)
 - [Paper](https://hal.inria.fr/hal-02351236/document)
 - [Slides](http://projects-verimag.imag.fr/movep2020/wp-content/uploads/sites/8/2020/06/movep_3.pdf)
-- [Lecture recording](https://veri-bbb.imag.fr/playback/presentation/2.0/playback.html?meetingId=800131fcf308a150ee64230dddcc6fd29c5317c4-1592823463592)
+- [Talk](https://veri-bbb.imag.fr/playback/presentation/2.0/playback.html?meetingId=800131fcf308a150ee64230dddcc6fd29c5317c4-1592823463592)
 
-### A Note on Game Theory and Verification
+### Concurrent reachability games
+
+Lucade Alfaro, Thomas A.Henzinger, Orna Kupferman, TCS 2007
+
+Fixed point characterizations (least or greatest) for concurrent two-player games with reachability and safety objectives.
+
+https://www.sciencedirect.com/science/article/pii/S030439750700504X
+
+### A note on game theory and verification
 
 Patricia Bouyer, ATVA 2019
 
@@ -42,16 +42,21 @@ We present some basics of game theory, focusing on matrix games. We then present
 
 - [Paper](http://www.lsv.fr/~bouyer/equalis/files/bouyer-atva19.pdf)
 
-# First-order logic
+### Algorithmic game theory: from multi-agent optimization to online learning
 
-### Ultimately periodic sets, semi-linear sets, and Presburger arithmetic
+Mini course September 9-10, 2020.
 
-Dmitry Chistikov, MOVEP 2020
+- [Slides](https://smai-mode2020.inria.fr/en/mini-cours/)
+- [Talk](https://www.youtube.com/playlist?list=PLQERYuTxSzGYfm_vvmjqJ3ZVev1J-XYdH)
 
-How to generalize ultimately periodic sets of natural numbers to several dimensions? An answer to this question is the definition of semi-linear sets. These sets coincide with the sets definable in Presburger arithmetic, the first-order theory of the natural numbers with addition and order, and have numerous applications in the foundations of verification. In this short tutorial, I will give an introduction to semi-linear sets and Presburger arithmetic, illustrating several classic techniques as well as recent developments. In particular, we will look at the geometry of sets of solutions to linear Diophantine inequalities and review the complexity of related computational problems.
+### Games where you can play optimally with arena-independent finite memory
 
-- [Lecture recording](https://veri-bbb.imag.fr/playback/presentation/2.0/playback.html?meetingId=800131fcf308a150ee64230dddcc6fd29c5317c4-1593065851323)
-- [Slides](http://www-verimag.imag.fr/~iosif/DmitryChistikov.pdf)
+Pierre Vandenhove, MOVEP 2020
+
+- [Abstract](http://projects-verimag.imag.fr/movep2020/wp-content/uploads/sites/8/2020/06/MOVEP2020_paper_11.pdf)
+- [Slides](http://projects-verimag.imag.fr/movep2020/wp-content/uploads/sites/8/2020/06/vandenhove_movep20.pdf)
+- [Talk](https://veri-bbb.imag.fr/playback/presentation/2.0/playback.html?meetingId=800131fcf308a150ee64230dddcc6fd29c5317c4-1592823463592)
+
 
 ### ...
 
